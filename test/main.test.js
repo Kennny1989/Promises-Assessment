@@ -4,7 +4,7 @@ describe("Assignment", () => {
   describe("#getFortune()", () => {
     it("should print the question and fortune", async () => {
       const question = "Will the weather be excellent today?";
-      const fortune = "Yes – definitely.";
+      const fortune = "Yes definitely.";
       const expected = [
         `Your question was: ${question}`,
         expect.stringContaining("Your fortune is: "),
